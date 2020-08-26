@@ -1,0 +1,30 @@
+
+.friends-main{
+  margin-top: 70px;
+}
+
+.main-friends>.main-friends__column{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.friends-main__main img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.main-friends{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main-friends:hover{
+  opacity: 0.7;
+}

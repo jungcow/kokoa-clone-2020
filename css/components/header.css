@@ -1,0 +1,20 @@
+.header{
+  position: relative;
+  margin: 30px 0 15px;
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__column:last-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__column:last-child i{
+  font-size: 18px;
+  margin-left: 20px;
+}
